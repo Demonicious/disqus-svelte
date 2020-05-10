@@ -1,6 +1,6 @@
 {
   "name": "disqus-svelte",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
   "main": "dist/index.js",
