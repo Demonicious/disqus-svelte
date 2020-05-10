@@ -16,9 +16,9 @@ npm i -D disqus-svelte
 <Comments page="my-blog-post-41" />
 ```
 ##### Available Props:
-**Required** `identifier` : The unique identifier of the page. 
-**Optional** `url` : The complete URL of the page. *Default: window.location.href*
-**Optional** `container` : The class name of the Disqus  Comments Thread container.
+* **Required** `identifier` : The unique identifier of the page. 
+* **Optional** `url` : The complete URL of the page. *Default: window.location.href*.
+* **Optional** `container` : The class name of the Disqus  Comments Thread container..
 
 #### 3. Comment Count:
 ##### Setup:
@@ -40,3 +40,5 @@ For example: -->
 ```
 ##### Available Props:
 **Required** `shortname` : The Shortname of your site provided by Disqus.
+
+**[GitHub](https://github.com/demonicious/disqus-svelte)**
