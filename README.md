@@ -13,7 +13,7 @@ npm i -D disqus-svelte
 	import Comments from "disqus-svelte"; // You can use any alias.
 </script>
 
-<Comments page="my-blog-post-41" />
+<Comments identifier="my-blog-post-41" />
 ```
 ##### Available Props:
 * **Required** `identifier` : The unique identifier of the page. 
