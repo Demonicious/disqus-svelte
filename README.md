@@ -16,7 +16,7 @@ npm i -D disqus-svelte
 <Comments identifier="my-blog-post-41" />
 ```
 ##### Available Props:
-* **Required** `identifier` : The unique identifier of the page. 
+* **Required** `identifier` : The unique identifier of the page. The component will work without assigning this & throw a warning instead, but It's not guaranteed to always work.
 * **Optional** `url` : The complete URL of the page. *Default: window.location.href*.
 * **Optional** `container` : The class name of the Disqus  Comments Thread container..
 
