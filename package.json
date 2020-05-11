@@ -24,6 +24,7 @@
     "email": "demoncious@gmail.com",
     "url": "https://demonicious.dev"
   },
+  "license": "MIT",
   "keywords": [
     "svelte",
     "disqus",
