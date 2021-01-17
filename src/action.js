@@ -1,4 +1,4 @@
-const mountNewDisqus = ({ identifier, url }) => {
+const mountNewDisqus = ({ identifier, url, siteName }) => {
     const config = document.createElement('script');
     config.id = 'disqus-config-block';
     config.type = 'text/javascript';
@@ -8,7 +8,7 @@ const mountNewDisqus = ({ identifier, url }) => {
 
     const disqus = document.createElement('script');
     disqus.id = 'disqus-app-block';
-    disqus.src = 'https://svelte-test.disqus.com/embed.js';
+    disqus.src = `https://${siteName}.disqus.com/embed.js`;
     disqus.setAttribute('data-timestamp', +new Date());
     (document.head || document.body).appendChild(disqus);
 
